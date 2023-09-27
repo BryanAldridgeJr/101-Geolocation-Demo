@@ -3,13 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" >
   <title>Document</title>
 </head>
 <body>
-  
-  <button onclick="myLocation()">Get Location</button> 
-  <p id="display-coordinates">hi</p>
-  
+  <div class="wholeBody">
+    <div class="heading">
+      <h1>Find Your Coordinates Below!</h1>
+    </div>
+
+    <div class="location">
+
+      <button class="button" onclick="myLocation()">Get Location</button>
+    </div>
+    <div class="coordinates">
+      <p id="display-coordinates">Click The Button Above For Your Results</p>
+    </div>
+  </div>
   <script src="main.js"></script>
 </body>
 </html>
